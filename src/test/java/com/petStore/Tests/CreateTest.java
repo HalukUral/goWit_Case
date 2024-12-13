@@ -15,7 +15,7 @@ import java.util.ArrayList;
 public class CreateTest extends BaseTest {
 
 
-    @Test(priority = 1, description = "Scenario 1 : I should be able to create a new pet with valid information successfully")
+    @Test(priority = 1, description = "Scenario 1 : I should be able to create a new pet with valid information successfully(Positive Scenario)")
 
     public void Users_CreatePet_Success() throws JsonProcessingException {
 
@@ -54,7 +54,7 @@ public class CreateTest extends BaseTest {
 
     }
 
-    @Test(priority = 3, description = "Scenario 2 : I should not be able to create a new pet without pic(Negative Scenario)")
+    @Test(priority = 3, description = "Scenario 2 : I should not be able to create a new pet without picture(Negative Scenario)")
     public void Users_CreatePet_Without_any_Pic() {
         Response response = ApiTools.createPetWithJson("src/test/resources/Pet.json");
         System.out.println(response.getStatusCode());
