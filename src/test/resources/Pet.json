@@ -1,0 +1,22 @@
+
+
+  {
+    "id": 1,
+    "category": {
+      "id": 3,
+      "name": "bird"
+    },
+    "name": "C",
+    "photoUrls": [
+
+    ],
+    "tags": [
+      {
+        "id": 3,
+        "name": "chirpy"
+      }
+    ],
+    "status": "available"
+  }
+
+

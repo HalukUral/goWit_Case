@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PetStoreAPITests" parallel="false">
+    <test name="CRUD Operations">
+        <classes>
+            <class name="com.petStore.Tests.CreateTest"/>
+            <class name="com.petStore.Tests.GetTest"/>
+            <class name="com.petStore.Tests.UpdateTest"/>
+            <class name="com.petStore.Tests.DeleteTest"/>
+        </classes>
+    </test>
+</suite>
