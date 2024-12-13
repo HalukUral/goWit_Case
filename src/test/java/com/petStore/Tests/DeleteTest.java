@@ -13,7 +13,7 @@ import java.util.Map;
 public class DeleteTest extends BaseTest {
 
 
-    @Test(priority = 1, description = "Scenario 1 : I should be able to delete a pet with valid id number")
+    @Test(priority = 1, description = "Scenario 1 : I should be able to delete a pet with valid id number(Positive Scenario)")
     public void testDeletePet() {
 
 
