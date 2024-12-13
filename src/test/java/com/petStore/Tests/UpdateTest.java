@@ -21,7 +21,7 @@ public class UpdateTest extends BaseTest {
         Assert.assertEquals(response.jsonPath().getString("status"), "sold");
     }
 
-    @Test(priority = 2,description = "Scenario 1 : I should be not able to Update a pet data without ID (Negative Scenario)")
+    @Test(priority = 2,description = "Scenario 1 : I should be not able to Update a pet data without existing ID (Negative Scenario)")
     public void testUpdatePetNotFound() {
         String nonExistingPet = "{ \"id\": 2, \"name\": \"Unknown\", \"category\": { \"id\": 1, \"name\": \"Cats\" }, \"photoUrls\": [], \"tags\": [], \"status\": \"available\" }";
 
