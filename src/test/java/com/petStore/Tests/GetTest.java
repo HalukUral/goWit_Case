@@ -18,7 +18,7 @@ public class GetTest extends BaseTest {
         response.prettyPrint();
 
     }
-    @Test(priority = 2, description = "Scenario 2 : I should not be able to Get a pet data by invalid ID (Negative Scenario)")
+    @Test(priority = 2, description = "Scenario 2 : I should not be able to Get a pet data by invalid ID type(Negative Scenario)")
     public void testGetPetByInvalidId() {
         String petId = "ass";
         Response response = ApiTools.getPetById(petId);
