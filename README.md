@@ -26,7 +26,7 @@ FAILED : User should not be update pet's data without existing ID
 Scenario 1 : Get a pet data by ID successfully(Positive Scenario) 
 Scenario 2 : Get a pet data by invalid ID type (Negative Scenario)
 ```
-### Get User Data Scenarios:
+### Delete User Data Scenarios:
 ```bash
 Scenario 1 : Delete a pet with valid id number(Positive Scenario) 
 Scenario 2 : Delete a pet that is nonexistent(Negative Scenario)
